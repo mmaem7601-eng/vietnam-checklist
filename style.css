@@ -394,3 +394,26 @@ h1 {
 .check-item.minkyoung strong {
   color: #be185d;
 }
+
+/* =========================
+   체크 완료 항목 스타일
+   체크하면 흐려지고 취소선 표시
+========================= */
+
+.check-item:has(input:checked) {
+  opacity: 0.45;
+}
+
+.check-item:has(input:checked) span {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.check-item:has(input:checked) strong {
+  color: #9ca3af;
+}
+
+.check-item:has(input:checked):hover {
+  transform: none;
+  box-shadow: none;
+}
