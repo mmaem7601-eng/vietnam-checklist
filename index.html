@@ -8,276 +8,314 @@
 </head>
 <body>
   <main class="page">
-    <section class="checklist-card">
-      <div class="badge">Vietnam Trip</div>
+    <section class="app-card">
 
-      <h1>푸꾸옥 체크리스트</h1>
+      <div class="top-bar">
+        <div>
+          <div class="badge">Vietnam Trip</div>
+          <h1>푸꾸옥 여행 준비</h1>
+        </div>
 
-      <p class="description">
-        꼭 챙겨가자!
-      </p>
-
-      <div class="legend">
-        <span class="legend-item jinkyu-dot">진규가 챙길 것</span>
-        <span class="legend-item minkyoung-dot">민경이 챙길 것</span>
+        <div class="slide-indicator">
+          <span id="currentPage">1</span>
+          <span>/</span>
+          <span>2</span>
+        </div>
       </div>
 
-      <section class="category">
-        <h2>필수준비물</h2>
+      <!-- 1페이지: 이미지 영역 -->
+      <section class="slide active" id="slide1">
+        <div class="hero-page">
+          <div class="image-box">
+            <img src="main-image.jpg" alt="푸꾸옥 여행 이미지" />
+          </div>
 
-        <div class="checklist">
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>여권</span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>e심 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>보험증</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>항공권(스마트패스)</span>
-          </label>
-
-          <label class="check-item minkyoung">
-            <input type="checkbox" />
-            <span>트래블로그 하나카드 <strong>[민경]</strong></span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>의약품(배탈약, 소화제) <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>어댑터(3개 가져감)</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>충전기(라이트닝/C/워치)</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>보조배터리</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>휴대가방(매는거)</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>안경</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>썬글라스</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>쪼리</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>수영복</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>수경</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>인공눈물</span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>포켓4 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>모기기피제</span>
-          </label>
-
-          <label class="check-item minkyoung">
-            <input type="checkbox" />
-            <span>샤워기/필터 <strong>[민경]</strong></span>
-          </label>
-
-          <label class="check-item minkyoung">
-            <input type="checkbox" />
-            <span>우양산 <strong>[민경]</strong></span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>캡모자</span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>방수팩 2개 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item optional">
-            <input type="checkbox" />
-            <span>안대 <em>필수 아님</em></span>
-          </label>
+          <div class="hero-text">
+            <p class="eyebrow">Travel Ready</p>
+            <h2>여행 전 준비물을<br />하나씩 확인해보세요.</h2>
+            <p>
+              다음 페이지에서 필수 준비물, 세면용품, 의류를 체크할 수 있습니다.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="category">
-        <h2>화장/세면용품</h2>
+      <!-- 2페이지: 체크리스트 영역 -->
+      <section class="slide" id="slide2">
+        <p class="description">
+          여행 전 챙겨야 할 준비물을 카테고리별로 확인해보세요.
+        </p>
 
-        <div class="checklist">
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>클렌징폼</span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>클렌징오일 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>칫솔</span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>면도기 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>면도젤 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>샴푸</span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>샤워타월 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>컨실러 <strong>[진규]</strong></span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>로션</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>선크림</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>향수</span>
-          </label>
-
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>렌즈 5쌍 + 1쌍 착용</span>
-          </label>
+        <div class="legend">
+          <span class="legend-item jinkyu-dot">진규가 챙길 것</span>
+          <span class="legend-item minkyoung-dot">민경이 챙길 것</span>
         </div>
-      </section>
 
-      <section class="category">
-        <h2>의류</h2>
+        <section class="category">
+          <h2>필수준비물</h2>
 
-        <div class="checklist">
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>1일차 공항룩</span>
-          </label>
-
-          <div class="outfit-card">
-            <div class="outfit-title">2일차 코디</div>
-
-            <label class="check-item minkyoung">
-              <input type="checkbox" />
-              <span>초록체크 + 린넨바지 + 하얀 볼레로 <strong>[민경]</strong></span>
+          <div class="checklist">
+            <label class="check-item">
+              <input type="checkbox" data-id="passport" />
+              <span>여권</span>
             </label>
 
             <label class="check-item jinkyu">
-              <input type="checkbox" />
-              <span>흰색 니트 반팔 + 린넨바지 <strong>[진규]</strong></span>
+              <input type="checkbox" data-id="esim" />
+              <span>e심 <strong>[진규]</strong></span>
             </label>
-          </div>
 
-          <div class="outfit-card">
-            <div class="outfit-title">3일차 코디</div>
+            <label class="check-item">
+              <input type="checkbox" data-id="insurance" />
+              <span>보험증</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="flight-ticket" />
+              <span>항공권(스마트패스)</span>
+            </label>
 
             <label class="check-item minkyoung">
-              <input type="checkbox" />
-              <span>흰색 원피스 + 하늘색 가디건 <strong>[민경]</strong></span>
+              <input type="checkbox" data-id="travel-card" />
+              <span>트래블로그 하나카드 <strong>[민경]</strong></span>
             </label>
 
             <label class="check-item jinkyu">
-              <input type="checkbox" />
-              <span>흰색 셔츠 + 갈색 반바지 <strong>[진규]</strong></span>
+              <input type="checkbox" data-id="medicine" />
+              <span>의약품(배탈약, 소화제) <strong>[진규]</strong></span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="adapter" />
+              <span>어댑터(3개 가져감)</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="charger" />
+              <span>충전기(라이트닝/C/워치)</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="battery" />
+              <span>보조배터리</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="small-bag" />
+              <span>휴대가방(매는거)</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="glasses" />
+              <span>안경</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="sunglasses" />
+              <span>썬글라스</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="flipflops" />
+              <span>쪼리</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="swimsuit" />
+              <span>수영복</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="goggles" />
+              <span>수경</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="eye-drops" />
+              <span>인공눈물</span>
+            </label>
+
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="pocket4" />
+              <span>포켓4 <strong>[진규]</strong></span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="bug-spray" />
+              <span>모기기피제</span>
+            </label>
+
+            <label class="check-item minkyoung">
+              <input type="checkbox" data-id="shower-filter" />
+              <span>샤워기/필터 <strong>[민경]</strong></span>
+            </label>
+
+            <label class="check-item minkyoung">
+              <input type="checkbox" data-id="umbrella" />
+              <span>우양산 <strong>[민경]</strong></span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="cap" />
+              <span>캡모자</span>
+            </label>
+
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="waterproof-pack" />
+              <span>방수팩 2개 <strong>[진규]</strong></span>
+            </label>
+
+            <label class="check-item optional">
+              <input type="checkbox" data-id="eye-mask" />
+              <span>안대 <em>필수 아님</em></span>
             </label>
           </div>
+        </section>
 
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>4일차 회색 반팔 + 청반바지</span>
-          </label>
+        <section class="category">
+          <h2>화장/세면용품</h2>
 
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>속옷(여벌 포함)</span>
-          </label>
+          <div class="checklist">
+            <label class="check-item">
+              <input type="checkbox" data-id="cleansing-foam" />
+              <span>클렌징폼</span>
+            </label>
 
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>양말 2켤레</span>
-          </label>
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="cleansing-oil" />
+              <span>클렌징오일 <strong>[진규]</strong></span>
+            </label>
 
-          <label class="check-item jinkyu">
-            <input type="checkbox" />
-            <span>나시 3벌 <strong>[진규]</strong></span>
-          </label>
+            <label class="check-item">
+              <input type="checkbox" data-id="toothbrush" />
+              <span>칫솔</span>
+            </label>
 
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>여분 반팔</span>
-          </label>
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="razor" />
+              <span>면도기 <strong>[진규]</strong></span>
+            </label>
 
-          <label class="check-item">
-            <input type="checkbox" />
-            <span>여분 반바지</span>
-          </label>
-        </div>
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="shaving-gel" />
+              <span>면도젤 <strong>[진규]</strong></span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="shampoo" />
+              <span>샴푸</span>
+            </label>
+
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="shower-towel" />
+              <span>샤워타월 <strong>[진규]</strong></span>
+            </label>
+
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="concealer" />
+              <span>컨실러 <strong>[진규]</strong></span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="lotion" />
+              <span>로션</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="sunscreen" />
+              <span>선크림</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="perfume" />
+              <span>향수</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="lens" />
+              <span>렌즈 5쌍 + 1쌍 착용</span>
+            </label>
+          </div>
+        </section>
+
+        <section class="category">
+          <h2>의류</h2>
+
+          <div class="checklist">
+            <label class="check-item">
+              <input type="checkbox" data-id="day1-outfit" />
+              <span>1일차 공항룩</span>
+            </label>
+
+            <div class="outfit-card">
+              <div class="outfit-title">2일차 코디</div>
+
+              <label class="check-item minkyoung">
+                <input type="checkbox" data-id="day2-minkyoung" />
+                <span>초록체크 + 린넨바지 + 하얀 볼레로 <strong>[민경]</strong></span>
+              </label>
+
+              <label class="check-item jinkyu">
+                <input type="checkbox" data-id="day2-jinkyu" />
+                <span>흰색 니트 반팔 + 린넨바지 <strong>[진규]</strong></span>
+              </label>
+            </div>
+
+            <div class="outfit-card">
+              <div class="outfit-title">3일차 코디</div>
+
+              <label class="check-item minkyoung">
+                <input type="checkbox" data-id="day3-minkyoung" />
+                <span>흰색 원피스 + 하늘색 가디건 <strong>[민경]</strong></span>
+              </label>
+
+              <label class="check-item jinkyu">
+                <input type="checkbox" data-id="day3-jinkyu" />
+                <span>흰색 셔츠 + 갈색 반바지 <strong>[진규]</strong></span>
+              </label>
+            </div>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="day4-outfit" />
+              <span>4일차 회색 반팔 + 청반바지</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="underwear" />
+              <span>속옷(여벌 포함)</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="socks" />
+              <span>양말 2켤레</span>
+            </label>
+
+            <label class="check-item jinkyu">
+              <input type="checkbox" data-id="sleeveless" />
+              <span>나시 3벌 <strong>[진규]</strong></span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="extra-tshirt" />
+              <span>여분 반팔</span>
+            </label>
+
+            <label class="check-item">
+              <input type="checkbox" data-id="extra-shorts" />
+              <span>여분 반바지</span>
+            </label>
+          </div>
+        </section>
       </section>
+
+      <div class="nav-buttons">
+        <button type="button" id="prevBtn">이전</button>
+        <button type="button" id="nextBtn">다음</button>
+      </div>
+
     </section>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
