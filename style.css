@@ -364,3 +364,33 @@ h1 {
     flex-direction: row;
   }
 }
+/* =========================
+   담당자별 항목 색상 재설정
+   진규: 연초록 / 민경: 연분홍
+========================= */
+
+.jinkyu-dot::before {
+  background: #bbf7d0;
+}
+
+.minkyoung-dot::before {
+  background: #fbcfe8;
+}
+
+.check-item.jinkyu {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.check-item.minkyoung {
+  background: #fdf2f8;
+  border-color: #fbcfe8;
+}
+
+.check-item.jinkyu strong {
+  color: #15803d;
+}
+
+.check-item.minkyoung strong {
+  color: #be185d;
+}
